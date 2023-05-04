@@ -1,0 +1,49 @@
+.main {
+  height: 220px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main:hover {
+  background-color: rgb(25, 23, 23);
+  height: 230px;
+  width: 204px;
+  border: 1px solid white;
+}
+
+.host {
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.thumbnail {
+  width: 90%;
+  height: 60%;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: relative;
+  height: 100%;
+  width: 90%;
+}
+
+.topic {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}

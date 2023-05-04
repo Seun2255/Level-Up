@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  background-color: black;
+}
+
+.view {
+  margin-left: 46px;
+  width: calc(100% - 46px);
+  overflow-y: auto;
+  height: calc(100vh - 54px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tabs {
+  height: 100%;
+  width: 100%;
+}
+
+.view::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 2px;
+}
+
+.view::-webkit-scrollbar-button {
+  display: none;
+}
+
+.view::-webkit-scrollbar-thumb {
+  background: rgb(19, 19, 19);
+  border-radius: 1px;
+}
+
+.view::-webkit-scrollbar-track {
+  background: rgb(36, 36, 36);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lock__icon {
+  position: relative;
+  height: 350px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.connect {
+  background-color: #597dff;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  padding: 0.2em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}

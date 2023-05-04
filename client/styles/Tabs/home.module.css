@@ -1,0 +1,118 @@
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.topbar {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  padding-left: 30px;
+  background-color: rgb(25, 25, 25);
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.topbar h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.search__button {
+  width: 224px;
+  height: 40px;
+  border: 1px solid #d7d8e0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(18, 18, 23, 0.24);
+  margin-right: 12px;
+  transition: 0.2s;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  cursor: pointer;
+}
+
+.search__input {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  width: calc(100% - 34px);
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.search__input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.search__icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.grid {
+  display: grid;
+  padding: 10px 30px;
+  row-gap: 30px;
+  column-gap: 4px;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.empty {
+  height: calc(100% - 80px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.folder__icon {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.create__button {
+  background-color: #597dff;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.grid__item {
+  height: 220px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
