@@ -26,7 +26,7 @@ export default function About() {
           tristique senectus et netus et malesuada fames. Cursus sit amet dictum
           sit amet. Placerat orci nulla pellentesque dignissim enim. Lectus quam
           id leo in vitae turpis massa. Interdum posuere lorem ipsum dolor. Enim
-          tortor at auctor urna. Ullamcorper malesuada proin libero nunc
+          s tortor at auctor urna. Ullamcorper malesuada proin libero nunc
           consequat interdum varius sit. Eget est lorem ipsum dolor sit amet
           consectetur adipiscing elit. Amet volutpat consequat mauris nunc
           congue. Turpis in eu mi bibendum neque egestas congue quisque egestas.
