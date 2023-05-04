@@ -57,7 +57,7 @@ export default function CreateRoom() {
   const handleCreate = async () => {
     setLoader(true);
     createRoom(user.address, topic, time).then((data) => {
-      createClass(topic, about, pic, data.roomId, time).then(() => {
+      createClass(topic, about, pic, data.roomId, time, false).then(() => {
         setLoader(false);
         dispatch(setCreateRoomModal(false));
       });
