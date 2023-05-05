@@ -2,9 +2,6 @@
 
 Let's level up some skills!
 
-Prime Books is a dapp where writers can upload their work for their readers to view and support
-financially if they so want to.
-
 Level Up is aimed at improving the interaction between those who aim to pass on knowledge and those needing the
 knowledge through the use of our live class sessions.
 
